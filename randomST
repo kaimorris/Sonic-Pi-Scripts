@@ -23,7 +23,7 @@ end
 
 live_loop :strategy2 do
   # assign a value to 'b' that will be used as the index value
-  b = rrand_i(0, 7)
+  b = rrand_i(0, 8)
   print b
   play notes[b]
   sleep 0.5
@@ -32,7 +32,7 @@ end
 
 live_loop :strategy3 do
   # assign a value to 'c' that will be used as the index value
-  c = dice(8)-1
+  c = dice(7)-1
   print c
   play notes[c]
   sleep 0.5
